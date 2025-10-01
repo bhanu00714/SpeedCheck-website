@@ -1,0 +1,104 @@
+body{
+  background-color:rgb(245, 243, 229);
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* .under{
+  padding:15px;
+  margin-top:100px;
+  position:absolute;
+  top:50px;
+  right:0px;
+  left:0px;
+  height: 150px;
+  display:flex;
+  gap:25px;
+}
+@keyframes move{
+  0% {transform: translateX(3000px);}
+}
+.under-move-1{
+  margin-top:-30px;
+  animation:move 4s ease-in-out infinite;
+}
+.under-move-2{
+  margin-top:60px;
+}
+.under img{
+  width:40px;
+  height: 40px;
+  transform:rotate(140deg)
+} */
+.main-text{
+  z-index: 1;
+  position: relative;
+  font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:15px;
+}
+.main-text h1{
+    font-size: 60px;
+}
+.main-text button,.finish-button{
+    padding:10px 40px;
+    background-color: orangered;
+    border:2px solid black;
+    font-size: 20px;
+    font-family: arial;
+    transition: background-color 0.15s;
+    cursor: pointer;
+}
+.main-text button:hover{
+  background-color:red;
+}
+.finish-button:hover{
+  background-color: red;
+}
+.main-text button:active{
+  background-color: lightcoral;
+}
+.finish-button:active{
+  background-color: lightcoral;
+}
+.finish-card{
+  display:flex;
+  justify-content: center;
+}
+
+.write{
+  border:2px solid black;
+  padding:15px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap:40px;
+  margin:15px 60px;
+  background-color: rgb(248, 216, 146);
+}
+.write p{
+  width:400px;
+}
+.write textarea{
+  resize:none;
+  width:400px;
+  height: 250px;
+  padding:15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:15px ;
+}
+.result{
+  margin-top:20px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+.accuracy,.wpm{
+  background-color: orangered;
+  padding:50px;
+  border:2px solid black;
+}
